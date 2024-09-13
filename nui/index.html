@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="./js/listener.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <!--<p class="OnlineTitle" id="title-online">OnDuty</p>-->
+
+    <div class="City-Police" id="City-Police-container">
+        <!--<img src="./images/CityBadge.png" class="City-Police" id="City-Police-badge" />-->
+        <table class="City-Police" id="City-Onduty-table">
+            <tr>
+                <!--<td>badge</td>-->
+                <th colspan="2" class="Onduty-position" id="City-OnDuty-position">OnDuty</th>
+            </tr>
+            <tr>
+                <td><img src="./images/CityBadge.png" class="City-Police" id="City-Police-badge"/></td>
+                <td class="City-Police" id="City-Police-amount">LSPD: </td>
+            </tr>
+        </table>
+    </div>
+    <div class="County-Police" id="County-Police-container">
+        <!--<img src="./images/CountyBadge.png" class="County-Police" id="County-Police-badge" />
+        <p class="County-Police" id="County-Police-amount">BCSO: </p>-->
+        <table class="County-Police" id="County-Onduty-table">
+            <tr>
+                <th colspan="2" class="Onduty-position" id="County-OnDuty-position">OnDuty</th>
+            </tr>
+            <tr>
+                <td><img src="./images/CountyBadge.png" class="County-Police" id="County-Police-badge" /></td>
+                <td class="County-Police" id="County-Police-amount">BCSO: </td>
+            </tr>
+        </table>
+    </div>
+    <div class="State-Police" id="State-Police-container">
+        <!--<img src="./images/Statebadge.png" class="State-Police" id="State-Police-badge" />
+        <p class="State-Police" id="State-Police-amount">SAHP: </p>-->
+        <table class="State-Police" id="State-Onduty-table">
+            <tr>
+                <th colspan="2" class="Onduty-position" id="State-OnDuty-position">OnDuty</th>
+            </tr>
+            <tr>
+                <td><img src="./images/StateBadge.png" class="State-Police" id="State-Police-badge" /></td>
+                <td class="State-Police" id="State-Police-amount">SAHP: </td>
+            </tr>
+        </table>
+    </div>
+    <div class="all" id="all-container">
+        <table class="all" id="all-Onduty-table">
+            <tr>
+                <th colspan="2" class="Onduty-position" id="all-OnDuty-position">OnDuty</th>
+            </tr>
+            <tr>
+                <td><img src="./images/CityBadge.png" class="all" id="all-City-Police-badge" /></td>
+                <td class="all" id="all-City-Police-amount">LSPD: </td>
+            </tr>
+            <tr>
+                <td><img src="./images/CountyBadge.png" class="all" id="all-County-Police-badge" /></td>
+                <td class="all" id="all-County-Police-amount">BCSO: </td>
+                
+            </tr>
+            <tr>
+                <td><img src="./images/StateBadge.png" class="all" id="all-State-Police-badge" /></td>
+                <td class="all" id="all-State-Police-amount">SAHP: </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

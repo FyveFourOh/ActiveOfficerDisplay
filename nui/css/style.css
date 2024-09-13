@@ -1,0 +1,214 @@
+#City-Onduty-table {
+    width: 110px;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    border-spacing: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid white
+}
+
+tr, td {
+
+}
+
+.Onduty-position {
+    
+}
+
+#City-OnDuty-position {
+    position: relative;
+    
+}
+
+.City-Police {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+}
+
+#City-Police-badge {
+    width: 26px;
+    position: relative;
+    left: -5px;
+    top: 0px;
+}
+
+#City-Police-amount {
+    position: relative;
+    top: -2px;
+    right: -4px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
+
+
+#County-Onduty-table {
+    width: 110px;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    border-spacing: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid white
+}
+
+#County-OnDuty-position {
+    position: relative;
+
+}
+
+.County-Police {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+}
+
+#County-Police-badge {
+    width: 26px;
+    position: relative;
+    left: -5px;
+    top: 0px;
+}
+
+
+#County-Police-amount {
+    position: relative;
+    top: -2px;
+    right: -4px;
+    font-family: Arial, san-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
+
+
+#State-Onduty-table {
+    width: 110px;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    border-spacing: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid white
+}
+
+#State-OnDuty-position {
+    position: relative;
+}
+
+.State-Police {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+}
+
+#State-Police-badge {
+    width: 26px;
+    position: relative;
+    left: -5px;
+    top: 0px;
+}
+
+#State-Police-amount {
+    position: relative;
+    top: -2px;
+    right: -4px;
+    font-family: Arial, san-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
+
+
+
+
+/*Start of All agencies being show together*/
+
+#all-Onduty-table {
+    width: 110px;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    border-spacing: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid white
+}
+
+#all-OnDuty-position {
+    position: relative;
+}
+
+.all {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+}
+
+
+#all-City-Police-amount {
+    position: relative;
+    top: -2px;
+    right: -5px;
+    font-family: Arial, san-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
+
+#all-City-Police-badge {
+    width: 26px;
+    position: relative;
+    left: -5px;
+    top: 0px;
+}
+
+#all-County-Police-badge {
+    width: 26px;
+    position: relative;
+    left: -5px;
+    top: 0px;
+}
+
+#all-State-Police-badge {
+    width: 26px;
+    position: relative;
+    left: -5px;
+    top: 0px;
+}
+
+#all-County-Police-amount {
+    position: relative;
+    top: -2px;
+    right: -5px;
+    font-family: Arial, san-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
+
+#all-State-Police-amount {
+    position: relative;
+    top: -2px;
+    right: -5px;
+    font-family: Arial, san-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
