@@ -118,7 +118,7 @@
 
 ### Installation
 
-1. Clone the repo into your resource folder
+1. Clone the repo into your resource folder or download it from the releases
    ```sh
    git clone https://github.com/FyveFourOh/ActiveOfficerDisplay.git
    ```
