@@ -175,36 +175,37 @@
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To go onduty with a department, simply type `/onduty [department]` make sure you have the appropiate role in discord.
+To go `onduty` with a department, simply type `/onduty [department]` and make sure you have the appropiate role in 
+discord if you have discord permissions enabled.
 
 To bring up the HUD simply type `/online [department]`. You can also type `ALL` in the department field to see 
-all agencies stats. To change to another department's stats, you must retype `/online [CurrentSelectedDepartment]` to
+every agencies stats. To change to another department's stats, you must retype `/online [CurrentSelectedDepartment]` to
 disable the HUD first.
 
 <!--Additional screenshots, code examples and demos work well in this space. You may also link to more resources.-->
 
 <!--_For more examples, please refer to the [Documentation](https://example.com)_-->
 
-<p align="right">
+<!--<p align="right">
   <a href="#readme-top">
     <img src="https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600">
   </a>
 </p>
+-->
 
 
-
-See the [open issues](https://github.com/FyveFourOh/ActiveOfficerDisplay/issues) for a full list of proposed features (and known issues).
-
-<!--<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
+See the [opened issues](https://github.com/FyveFourOh/ActiveOfficerDisplay/issues) for a full list of proposed features (and known issues).
 
 <!--<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
 
-### Top contributors:
+<!--<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
+
+<!--### Top contributors:
 
 <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=FyveFourOh/ActiveOfficerDisplay" alt="contrib.rocks image" />
 </a>
-
+-->
 
 
 <!-- LICENSE -->
@@ -212,12 +213,12 @@ See the [open issues](https://github.com/FyveFourOh/ActiveOfficerDisplay/issues)
 
 Distributed under the GPL-3.0 License. See `LICENSE.md` for more information.
 
-<p align="right">
+<!--<p align="right">
   <a href="#readme-top">
     <img src="https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600">
   </a>
 </p>
-
+-->
 
 
 <!-- CONTACT -->
@@ -227,12 +228,12 @@ Niko AKA FyveFourOh - FyveFourOh@gmail.com
 
 Project Link: [https://github.com/FyveFourOh/ActiveOfficerDisplay](https://github.com/FyveFourOh/ActiveOfficerDisplay)
 
-<p align="right">
+<!--<p align="right">
   <a href="#readme-top">
     <img src="https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600">
   </a>
 </p>
-
+-->
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -241,7 +242,7 @@ Project Link: [https://github.com/FyveFourOh/ActiveOfficerDisplay](https://githu
 * [Zombieguy98's Config Reader](https://github.com/zombieguy98/fivem-config-reader)
   - Thank you Zombieguy98 for providing a greatly made configuration parser! Without it, this script would not be as user friendly.
 * [LegacyMaps](https://forum.cfx.re/u/legacysmaps/summary)
-  - I'd like to thank you for being the reason I started working on this script, as well as giving me much needed imput!
+  - I'd like to thank you for being the reason I started working on this script, as well as giving me much needed input!
 
 <p align="right">
   <a href="#readme-top">
