@@ -136,7 +136,7 @@
 
      - You can do the same for the server roles
      - Goto your server settings and navigate to the `roles` tab
-     - Click on the three dots next to the corresponding role you want to set for permissions and copy the `Role ID`
+     - Click on the three dots next to the corresponding role you want to set permissions for and copy the `Role ID`
      - Now you can go back to `config/discordBot.json` and paste it into the corresponding departments field
 
 6. You now will have to goto the discord [developer portal](https://discord.com/developers/applications) and make a bot
