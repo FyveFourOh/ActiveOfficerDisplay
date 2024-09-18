@@ -271,7 +271,7 @@ Project Link: [https://github.com/FyveFourOh/ActiveOfficerDisplay](https://githu
 [license-url]: https://github.com/FyveFourOh/ActiveOfficerDisplay/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: .github/ISSUE_TEMPLATE/Images/screenshot.png
 [BackToTop]: https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600
 [BackToTop-URL]: #readme-top
 [JSON.org]: https://img.shields.io/badge/Json.NET-brightgreen?style=for-the-badge&logo=JSON&logoColor=white&logoSize=auto&labelColor=000000&color=000000&cacheSeconds=3600&link=https%3A%2F%2Fwww.newtonsoft.com%2Fjson
