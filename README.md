@@ -188,7 +188,7 @@ To go `onduty` with a department, simply type `/onduty [department]` and make su
 discord if you have discord permissions enabled.
 
 To bring up the HUD simply type `/online [department]`. You can also type `ALL` in the department field to see 
-every agencies stats. To change to another department's stats, you must retype `/online [CurrentSelectedDepartment]` to
+every agencies stat. To change to another agencies stat, you must retype `/online [CurrentSelectedDepartment]` to
 disable the HUD first.
 
 <!--Additional screenshots, code examples and demos work well in this space. You may also link to more resources.-->
