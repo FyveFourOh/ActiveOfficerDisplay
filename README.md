@@ -133,7 +133,8 @@
    `ensure ActiveOfficerDisplay`
    
 4. Go into `config/config.cfg` and setup the HUD the way you wish 
-   
+   - If you do not enable the discord permissions option in the config, then you
+     can skip pass the discord bot setup which begins next
 
 5. Now go into `config/discordBot.json` and add in your discord server and role info
 
