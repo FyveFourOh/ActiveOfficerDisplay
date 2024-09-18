@@ -84,8 +84,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![ActiveOfficerDisplay][product-screenshot]
-![ActiveOfficerDisplay][product-screenshot]
+![ActiveOfficerDisplay][all-online-badges]
+![ActiveOfficerDisplay][all-online]
 ![ActiveOfficerDisplay][product-screenshot]
 
  Active Officer Display and Access Control is a standalone solution to view, in real time, how many law enforcement officers are onduty. The HUD is very customizable, you can set your own colors, department acronyms and even set the `config.cfg` to use badges next to the department acronyms to fit your server's world. You can also set your departments discord roles in `discordBot.json` to automatically enable a player to go onduty with their respective departments. It allows for a smooth whitelisting experience with very little setup. Once setup, the roles should act as permissions within FiveM for AODAC. It is worth noting that anyone can toggle the Active Officers HUD.
@@ -273,8 +273,9 @@ Project Link: [https://github.com/FyveFourOh/ActiveOfficerDisplay](https://githu
 [license-url]: https://github.com/FyveFourOh/ActiveOfficerDisplay/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
+[lspd-online]: .github/ISSUE_TEMPLATE/Images/FiveM_b3095_GTAProcess_0jIvKS8VvJ.png
 [all-online-badges]: .github/ISSUE_TEMPLATE/Images/FiveM_b3095_GTAProcess_B0zJoarohp.png
-[all-online]: .github/ISSUE_TEMPLATE/Images/FiveM_b3095_GTAProcess_B0zJoarohp.png
+[all-online]: .github/ISSUE_TEMPLATE/Images/FiveM_b3095_GTAProcess_0jIvKS8VvJ.png
 [BackToTop]: https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600
 [BackToTop-URL]: #readme-top
 [JSON.org]: https://img.shields.io/badge/Json.NET-brightgreen?style=for-the-badge&logo=JSON&logoColor=white&logoSize=auto&labelColor=000000&color=000000&cacheSeconds=3600&link=https%3A%2F%2Fwww.newtonsoft.com%2Fjson
