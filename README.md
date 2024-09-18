@@ -83,11 +83,11 @@
 
  Active Officer Display and Access Control is a standalone solution to view, in real time, how many law enforcement officers are onduty. The HUD is very customizable, you can set your own colors, department acronyms and even set the `config.cfg` to use badges next to the department acronyms to fit your server's world. You can also set your departments discord roles in `discordBot.json` to automatically enable a player to go onduty with their respective departments. It allows for a smooth whitelisting experience with very little setup. Once setup, the roles should act as permissions within FiveM for AODAC. It is worth noting that anyone can toggle the Active Officers HUD.
 
-<p align="right">
+<!--<p align="right">
   <a href="#readme-top">
     <img src="https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600">
   </a>
-</p>
+</p>-->
 
 
 ### Built With
@@ -238,9 +238,10 @@ Project Link: [https://github.com/FyveFourOh/ActiveOfficerDisplay](https://githu
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Zombieguy98's Config Reader](https://github.com/zombieguy98/fivem-config-reader)
+  - Thank you Zombieguy98 for providing a greatly made configuration parser! Without it, this script would not be as user friendly.
+* [LegacyMaps](https://forum.cfx.re/u/legacysmaps/summary)
+  - I'd like to thank you for being the reason I started working on this script, as well as giving me much needed imput!
 
 <p align="right">
   <a href="#readme-top">
