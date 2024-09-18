@@ -18,11 +18,17 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![GPL-3.0 License][license-shield]][license-url]
+<!--[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]-->
+<div align="center">
+  <!--[![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![GPL-3.0 License][license-shield]][license-url]
+  -->
+  <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/stargazers"><img src="https://img.shields.io/github/stars/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge"></a>
+  <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues"><img src="https://img.shields.io/github/issues/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge"</a>
+  <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge"></a>
+</div>
 
 
 
