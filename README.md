@@ -95,7 +95,11 @@
 * [![Discord.js][Discord.js.org]][Discord.js-url]
 * [![Node.js][Node.js.org]][Node.js-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">
+  <a href="#readme-top">
+    <img src="https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600">
+  </a>
+</p>
 
 
 
@@ -160,7 +164,11 @@
 7. Congratulations, you're finally done!
   
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">
+  <a href="#readme-top">
+    <img src="https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600">
+  </a>
+</p>
 
 
 
@@ -177,7 +185,11 @@ disable the HUD first.
 
 <!--_For more examples, please refer to the [Documentation](https://example.com)_-->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">
+  <a href="#readme-top">
+    <img src="https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600">
+  </a>
+</p>
 
 
 
@@ -200,7 +212,11 @@ See the [open issues](https://github.com/FyveFourOh/ActiveOfficerDisplay/issues)
 
 <!--Distributed under the MIT License. See `LICENSE.txt` for more information.-->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">
+  <a href="#readme-top">
+    <img src="https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600">
+  </a>
+</p>
 
 
 
@@ -211,7 +227,11 @@ Niko AKA FyveFourOh - FyveFourOh@gmail.com
 
 Project Link: [https://github.com/FyveFourOh/ActiveOfficerDisplay](https://github.com/FyveFourOh/ActiveOfficerDisplay)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">
+  <a href="#readme-top">
+    <img src="https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600">
+  </a>
+</p>
 
 
 
@@ -222,7 +242,11 @@ Project Link: [https://github.com/FyveFourOh/ActiveOfficerDisplay](https://githu
 * []()
 * []()
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">
+  <a href="#readme-top">
+    <img src="https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600">
+  </a>
+</p>
 
 
 
