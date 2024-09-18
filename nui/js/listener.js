@@ -1,3 +1,25 @@
+/*
+-----------------------------------------------------------------------------------
+                          COPYRIGHT NOTICE - DO NOT REMOVE
+-----------------------------------------------------------------------------------
+This file is part of Active Officer Display and Access Control [AODAC]            
+Copyright (C) 2024  FyveFourOh													
+                                                                                	
+[AODAC] is free software: you can redistribute it and/or modify				
+it under the terms of the GNU General Public License as published by				
+the Free Software Foundation, either version 3 of the License, or					
+(at your option) any later version.												
+                                                                                	
+This program is distributed in the hope that it will be useful,					
+but WITHOUT ANY WARRANTY; without even the implied warranty of					
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the						
+GNU General Public License for more details.										
+                                                                                	
+You should have received a copy of the GNU General Public License					
+along with this program.  If not, see <https://www.gnu.org/licenses/>.			
+                                                                                	
+-----------------------------------------------------------------------------------
+*/
 
 
 $(function () {
@@ -6,6 +28,10 @@ $(function () {
 
     // Setup Options
     var showBadge = false;
+    var BorderWhiteOnly = false;
+
+    // Setup Table baground
+    var OndutyTableBGColor;
 
     // Setup font colors
     var OndutyTableTitleColor;
@@ -60,6 +86,7 @@ $(function () {
         if (item.type === "setup") {
             if (isSetup === false) {
 
+                OndutyTableBGColor = item.TableBackgroundColor;
                 OndutyTableTitleColor = item.TableTitleColor;
 
                 cityPoliceFontColor = item.CityPoliceColor;
@@ -71,7 +98,9 @@ $(function () {
                 statePoliceFontColor = item.StatePoliceColor;
                 statePoliceNameText = item.StatePoliceName;
 
-                if (item.badge === "true") {
+                BorderWhiteOnly = item.TableBorderWhite;
+
+                if (item.badge === true) {
                     showBadge = true;
                 } else { showBadge = false; }
 
@@ -84,17 +113,23 @@ $(function () {
     });
 
     function SetupDefaults() {
-        // Sets config font colors
-        //lspdFontColor = "orange";
-        //bcsoFontColor = "green";
-        //sahpFontColor = "#dc8992";
 
-        //var testTitleColor = "orange";
+        // Build border color matching the title without transparency if not white only
+        var TableBorderColor;
+        var tempStringArray = String(OndutyTableBGColor).split(',');
+        if (tempStringArray.length === 4 && BorderWhiteOnly === false) {
+            TableBorderColor = tempStringArray[0] + ", " + tempStringArray[1] + ", " + tempStringArray[2] + ", 1";
+        }
 
         const defaultCount = 0;
 
         // Gets class for Onduty table
-        var buildString = "Onduty";
+        var buildString;
+        if (showBadge === true) {
+            buildString = "IN-SERVICE";
+        } else {
+            buildString = "IN SERVICE";
+        }
         var elClass = document.getElementsByClassName("Onduty-position");
 
         // Sets css properites for each id in class
@@ -113,9 +148,11 @@ $(function () {
         
         // LSPD
         buildString = cityPoliceNameText + ": " + defaultCount;
-        var id = document.getElementById('City-Police-amount'); //.innerHTML = buildString;
+        var id = document.getElementById('City-Police-amount');
         id.style.color = cityPoliceFontColor;
         id.style.textAlignLast = "justify";
+
+        // Sets the text pos and table spacing depending on badges
         if (showBadge === false) {
             id.style.right = "0px";
         } else { // testing
@@ -126,8 +163,16 @@ $(function () {
         }
         id.innerHTML = buildString;
 
+        // Sets the background color, also sets new border color if not white only
+        id = document.getElementById('City-Onduty-table');
+        id.style.backgroundColor = OndutyTableBGColor;
+        if (BorderWhiteOnly === false) {
+            id.style.borderColor = TableBorderColor;
+        }
+        
+
         // All LSPD
-        id = document.getElementById('all-City-Police-amount') //.innerHTML = buildString;
+        id = document.getElementById('all-City-Police-amount')
         id.style.color = cityPoliceFontColor;
         id.style.textAlignLast = "justify";
 
@@ -142,10 +187,11 @@ $(function () {
 
         // BCSO
         buildString = countyPoliceNameText + ": " + defaultCount;
-        id = document.getElementById('County-Police-amount') //.innerHTML = buildString;
+        id = document.getElementById('County-Police-amount')
         id.style.color = countyPoliceFontColor;
         id.style.textAlignLast = "justify";
 
+        // Sets the text pos and table spacing depending on badges
         if (showBadge === false) {
             id.style.right = "0px";
         } else { // testing
@@ -156,13 +202,20 @@ $(function () {
         }
         id.innerHTML = buildString;
 
+        // Sets the background color, also sets new border color if not white only
+        id = document.getElementById('County-Onduty-table');
+        id.style.backgroundColor = OndutyTableBGColor;
+        if (BorderWhiteOnly === false) {
+            id.style.borderColor = TableBorderColor;
+        }
         
 
         // All BCSO
-        id = document.getElementById('all-County-Police-amount') //.innerHTML = buildString;
+        id = document.getElementById('all-County-Police-amount')
         id.style.color = countyPoliceFontColor;
         id.style.textAlignLast = "justify";
 
+        // Sets the text pos depending on badges
         if (showBadge === false) {
             id.style.right = "0px";
         } else {
@@ -174,10 +227,11 @@ $(function () {
 
         // SAHP
         buildString = statePoliceNameText + ": " + defaultCount;
-        id = document.getElementById('State-Police-amount') //.innerHTML = buildString;
+        id = document.getElementById('State-Police-amount')
         id.style.color = statePoliceFontColor;
         id.style.textAlignLast = "justify";
 
+        // Sets the text pos and table spacing depending on badges
         if (showBadge === false) {
             id.style.right = "0px";
         } else { // testing
@@ -190,12 +244,20 @@ $(function () {
         }
         id.innerHTML = buildString;
 
+        // Sets the background color, also sets new border color if not white only
+        id = document.getElementById('State-Onduty-table');
+        id.style.backgroundColor = OndutyTableBGColor;
+        if (BorderWhiteOnly === false) {
+            id.style.borderColor = TableBorderColor;
+        }
+
 
         // All SAHP
-        id = document.getElementById('all-State-Police-amount') //.innerHTML = buildString;
+        id = document.getElementById('all-State-Police-amount')
         id.style.color = statePoliceFontColor;
         id.style.textAlignLast = "justify";
 
+        // Sets the text pos depending on badges
         if (showBadge === false) {
             id.style.right = "0px";
         } else {
@@ -203,14 +265,20 @@ $(function () {
         }
         id.innerHTML = buildString;
 
-        // testing
-
+        
+        // Sets the table spacing to fit with badges
         if (showBadge === true) {
 
             id = document.getElementById('all-Onduty-table');
             id.style.borderSpacing = "12px";
         }
 
+        // Sets the background color, also sets new border color if not white only
+        id = document.getElementById('all-Onduty-table');
+        id.style.backgroundColor = OndutyTableBGColor;
+        if (BorderWhiteOnly === false) {
+            id.style.borderColor = TableBorderColor;
+        }
         
     }
 
@@ -286,7 +354,7 @@ $(function () {
         }
     }
 
-    // Maybe swith agency to hold City, County, State instead of LSPD, BCSO, SAHP
+    // Maybe switch agency to hold City, County, State instead of LSPD, BCSO, SAHP
     // If I did this, I would most likely update c# dictionary's to contains the 
     // config department names
     function updateCount(agency, count) {
