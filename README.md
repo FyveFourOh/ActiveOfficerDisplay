@@ -122,9 +122,10 @@
    ```sh
    git clone https://github.com/FyveFourOh/ActiveOfficerDisplay.git
    ```
+   - If you download the release package, make sure to remove the end "v0.9.0-beta" from the folder name 
 2. Add `add_ace resource.ActiveOfficerDisplay command.add_ace allow` to your `server.cfg`
    
-    If you change the resource name, make sure to change it in the above command. I would
+   - If you change the resource name, make sure to change it in the above command. I would
   suggest not changing the name, but if you do and issues come up, change the name back to
   `ActiveOfficerDisplay` and see if the issue presists before submiting an issue.
    
