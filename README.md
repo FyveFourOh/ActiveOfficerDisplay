@@ -120,7 +120,7 @@
 
 1. Clone the repo into your resource folder or download it from the releases
    ```sh
-   git clone https://github.com/FyveFourOh/ActiveOfficerDisplay.git
+   git clone --single-branch --branch release https://github.com/FyveFourOh/ActiveOfficerDisplay.git
    ```
    - If you download the release package, make sure to remove the end "v0.9.0-beta" from the folder name 
 2. Add `add_ace resource.ActiveOfficerDisplay command.add_ace allow` to your `server.cfg`
