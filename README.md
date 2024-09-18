@@ -48,7 +48,7 @@
     <br />
     <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay">View Demo</a>
     ·
-    <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues/new?assignees=FyveFourOh&labels=bug&projects=&template=bug_report.md&title=%5BBUG%5D">Report Bug</a>
+    <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues/new?assignees=FyveFourOh&labels=bug&projects=&template=bug_report.md&title=%5BBUG%5D+-+%3CThing+Does+or+Doesn%27t+do+This%3E">Report Bug</a>
     ·
     <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues/new?assignees=FyveFourOh&labels=enhancement&projects=&template=feature_request.md&title=%5BSUGGESTION%5D">Request Feature</a>
   </p>
