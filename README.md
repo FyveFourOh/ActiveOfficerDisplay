@@ -83,7 +83,11 @@
 
  Active Officer Display and Access Control is a standalone solution to view, in real time, how many law enforcement officers are onduty. The HUD is very customizable, you can set your own colors, department acronyms and even set the `config.cfg` to use badges next to the department acronyms to fit your server's world. You can also set your departments discord roles in `discordBot.json` to automatically enable a player to go onduty with their respective departments. It allows for a smooth whitelisting experience with very little setup. Once setup, the roles should act as permissions within FiveM for AODAC. It is worth noting that anyone can toggle the Active Officers HUD.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">
+  <a href="#readme-top">
+    <img src="https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600">
+  </a>
+</p>
 
 
 ### Built With
@@ -179,9 +183,9 @@ disable the HUD first.
 
 See the [open issues](https://github.com/FyveFourOh/ActiveOfficerDisplay/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!--<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!--<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
 
 ### Top contributors:
 
@@ -237,6 +241,8 @@ Project Link: [https://github.com/FyveFourOh/ActiveOfficerDisplay](https://githu
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
+[BackToTop]: https://img.shields.io/badge/BACK%20TO%20TOP--NavyBlue?style=for-the-badge&logoSize=auto&labelColor=rgb(0%2C%2017%2C%2048)&color=green&cacheSeconds=3600
+[BackToTop-URL]: #readme-top
 [JSON.org]: https://img.shields.io/badge/Json.NET-brightgreen?style=for-the-badge&logo=JSON&logoColor=white&logoSize=auto&labelColor=000000&color=000000&cacheSeconds=3600&link=https%3A%2F%2Fwww.newtonsoft.com%2Fjson
 [JSON-url]: https://www.newtonsoft.com/json
 [Node.js.org]: https://img.shields.io/badge/Node.js-brightgreen?style=for-the-badge&logo=nodedotjs&logoColor=white&logoSize=auto&labelColor=2f8024&color=2f8024&cacheSeconds=3600&link=https%3A%2F%2Fnodejs.org%2Fen
