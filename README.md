@@ -98,9 +98,11 @@
 
 
 ### Built With
-* [![https://www.newtonsoft.com/json][JSON.org]][JSON-url]
-* [![Discord.js][Discord.js.org]][Discord.js-url]
-* [![Node.js][Node.js.org]][Node.js-url]
+[![https://www.newtonsoft.com/json][JSON.org]][JSON-url]
+
+[![Discord.js][Discord.js.org]][Discord.js-url]
+
+[![Node.js][Node.js.org]][Node.js-url]
 
 <p align="right">
   <a href="#readme-top">
