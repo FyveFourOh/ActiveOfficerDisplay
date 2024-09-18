@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: "[BUG] - <brief few words describing the issue>"
+title: "[BUG] - <Thing Does or Doesn't do This>"
 labels: bug
 assignees: FyveFourOh
 
