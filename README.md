@@ -27,7 +27,7 @@
   -->
   <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/stargazers"><img src="https://img.shields.io/github/stars/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge"></a>
   <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues"><img src="https://img.shields.io/github/issues/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge"</a>
-  <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge"></a>
+  <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/blob/main/LICENSE"> <img src="https://img.shields.io/github/license/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge"></a>
 </div>
 
 
