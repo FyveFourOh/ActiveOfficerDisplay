@@ -126,7 +126,7 @@
    
    - If you change the resource name, make sure to change it in the above command. I would
   suggest not changing the name, but if you do and issues come up, change the name back to
-  `ActiveOfficerDisplay` and see if the issue presists before submiting an issue.
+  `ActiveOfficerDisplay` and see if the issue persists before submiting an issue.
    
 3. Ensure the resource in your `server.cfg`
 
