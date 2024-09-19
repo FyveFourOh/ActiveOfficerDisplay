@@ -27,7 +27,7 @@
   -->
   <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/stargazers"><img src="https://img.shields.io/github/stars/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge"></a>
   <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues"><img src="https://img.shields.io/github/issues/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge"</a>
-  <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/blob/master/LICENSE"> <img src="https://img.shields.io/github/license/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge"></a>
+  <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/blob/main/LICENSE"><img src="https://img.shields.io/github/license/FyveFourOh/ActiveOfficerDisplay?style=for-the-badge&labelColor=grey&color=orange&cacheSeconds=3600&link=https%3A%2F%2Fgithub.com%2FFyveFourOh%2FActiveOfficerDisplay%2Fblob%2Fmain%2FLICENSE"></a>
 </div>
 
 
@@ -46,9 +46,8 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay">View Demo</a>
-    ·
-    <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues/new?assignees=FyveFourOh&labels=bug&projects=&template=bug_report.md&title=%5BBUG%5D">Report Bug</a>
+    <!--<a href="https://github.com/FyveFourOh/ActiveOfficerDisplay">View Demo</a>-->
+    <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues/new?assignees=FyveFourOh&labels=bug&projects=&template=bug_report.md&title=%5BBUG%5D+-+%3CThing+Does+or+Doesn%27t+do+This%3E">Report Bug</a>
     ·
     <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues/new?assignees=FyveFourOh&labels=enhancement&projects=&template=feature_request.md&title=%5BSUGGESTION%5D">Request Feature</a>
   </p>
@@ -118,22 +117,24 @@
 
 ### Installation
 
-1. Clone the repo into your resource folder
+1. Clone the repo into your resource folder or download it from the releases
    ```sh
-   git clone https://github.com/FyveFourOh/ActiveOfficerDisplay.git
+   git clone --single-branch --branch release https://github.com/FyveFourOh/ActiveOfficerDisplay.git
    ```
+   - If you download the release package, make sure to remove the end "v0.9.0-beta" from the folder name 
 2. Add `add_ace resource.ActiveOfficerDisplay command.add_ace allow` to your `server.cfg`
    
-    If you change the resource name, make sure to change it in the above command. I would
+   - If you change the resource name, make sure to change it in the above command. I would
   suggest not changing the name, but if you do and issues come up, change the name back to
-  `ActiveOfficerDisplay` and see if the issue presists before submiting an issue.
+  `ActiveOfficerDisplay` and see if the issue persists before submiting an issue.
    
 3. Ensure the resource in your `server.cfg`
 
    `ensure ActiveOfficerDisplay`
    
 4. Go into `config/config.cfg` and setup the HUD the way you wish 
-   
+   - If you do not enable the discord permissions option in the config, then you
+     can skip pass the discord bot setup which begins next
 
 5. Now go into `config/discordBot.json` and add in your discord server and role info
 
@@ -280,7 +281,7 @@ Project Link: [https://github.com/FyveFourOh/ActiveOfficerDisplay](https://githu
 [issues-shield]: https://img.shields.io/github/issues/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge
 [issues-url]: https://github.com/FyveFourOh/ActiveOfficerDisplay/issues
 [license-shield]: https://img.shields.io/github/license/FyveFourOh/ActiveOfficerDisplay.svg?style=for-the-badge
-[license-url]: https://github.com/FyveFourOh/ActiveOfficerDisplay/blob/master/LICENSE
+[license-url]: https://github.com/FyveFourOh/ActiveOfficerDisplay/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [lspd-online]: .github/ISSUE_TEMPLATE/Images/FiveM_b3095_GTAProcess_QtocLHFeqd.png
