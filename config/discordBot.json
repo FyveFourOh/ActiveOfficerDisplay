@@ -1,8 +1,8 @@
-﻿{
-  "token": "",
-  "guild": "",
-  "cityPoliceRole": "",
-  "countySheriffRole": "",
-  "statePoliceRole": ""
+{
+  "token": "REPACE",
+  "guild": "REPLACE",
+  "cityPoliceRole": "REPLACE",
+  "countySheriffRole": "REPLACE",
+  "statePoliceRole": "REPLACE"
 
 }
