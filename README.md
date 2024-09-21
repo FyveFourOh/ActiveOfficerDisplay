@@ -47,9 +47,10 @@
     <br />
     <br />
     <!--<a href="https://github.com/FyveFourOh/ActiveOfficerDisplay">View Demo</a>-->
-    <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues/new?assignees=FyveFourOh&labels=bug&projects=&template=bug_report.md&title=%5BBUG%5D+-+%3CThing+Does+or+Doesn%27t+do+This%3E">Report Bug</a>
-    ·
-    <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues/new?assignees=FyveFourOh&labels=enhancement&projects=&template=feature_request.md&title=%5BSUGGESTION%5D">Request Feature</a>
+    <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues/new?assignees=FyveFourOh&labels=bug&projects=&template=bug_report.md&title=%5BBUG%5D+-+%3CThing+Does+or+Doesn%27t+do+This%3E">
+        <img src="https://img.shields.io/badge/REPORT%20BUG--NavyBlue?style=for-the-badge&logoColor=navyblue&logoSize=auto&labelColor=rgb(0%2C17%2C48)&color=red&cacheSeconds=3600"></a>
+    <a href="https://github.com/FyveFourOh/ActiveOfficerDisplay/issues/new?assignees=FyveFourOh&labels=enhancement&projects=&template=feature_request.md&title=%5BSUGGESTION%5D">
+      <img src="https://img.shields.io/badge/REQUEST%20FEATURE--NavyBlue?style=for-the-badge&logoColor=navyblue&logoSize=auto&labelColor=rgb(0%2C17%2C48)&color=brightgreen&cacheSeconds=3600"></a>
   </p>
 </div>
 
