@@ -73,7 +73,7 @@ on('aod:CheckUserRole', async (clientDiscordID) => {
         }
     } else {
     
-        console.log("Did not pass member check")
+        //console.log("Did not pass member check")
     }
 
 });
