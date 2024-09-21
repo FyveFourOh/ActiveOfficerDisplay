@@ -121,7 +121,7 @@
    ```sh
    git clone --single-branch --branch release https://github.com/FyveFourOh/ActiveOfficerDisplay.git
    ```
-   - If you download the release package, make sure to remove the end "v0.9.0-beta" from the folder name 
+   - If you download the release package, make sure to remove the end "v1.0.0" from the folder name 
 2. Add `add_ace resource.ActiveOfficerDisplay command.add_ace allow` to your `server.cfg`
    
    - If you change the resource name, make sure to change it in the above command. I would
@@ -136,18 +136,18 @@
    - If you do not enable the discord permissions option in the config, then you
      can skip pass the discord bot setup which begins next
 
-5. Now go into `config/discordBot.json` and add in your discord server and role info
+5. Now go into `config/bot.json` and add in your discord server and role info
 
      - For the guild field you're going to need to make sure your discord account has developer mode activated
        - Go to your user settings by clicking the gear next to your discord username
        - Under `APP SETTINGS` select `Advanced` and then turn on developer mode
      - Now navigate to your discord server and right click on the server icon, at the bottom you can copy your `Server ID`
-     - Go back to the `config/discordBot.json` and paste it into the `guild` field
+     - Go back to the `config/bot.json` and paste it into the `guild` field
 
      - You can do the same for the server roles
      - Goto your server settings and navigate to the `roles` tab
      - Click on the three dots next to the corresponding role you want to set permissions for and copy the `Role ID`
-     - Now you can go back to `config/discordBot.json` and paste it into the corresponding departments field
+     - Now you can go back to `config/bot.json` and paste it into the corresponding departments field
 
 6. You now will have to goto the discord [developer portal](https://discord.com/developers/applications) and make a bot
 
@@ -168,7 +168,7 @@
      - Now copy the url generated and add the bot to your server
   
      - After this, go back to the `bot` tab and click on `reset token` and copy the token
-     - You can now head back to our resource and locate the config at `config/discordBot.json`
+     - You can now head back to our resource and locate the config at `config/bot.json`
      - Paste your bot token in the `token` field
   
 7. Congratulations, you're finally done!
