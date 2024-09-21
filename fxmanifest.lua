@@ -3,7 +3,7 @@ games { 'rdr3', 'gta5' }
 
 author 'Niko <FyveFourOh@gmail.com>'
 description 'Hud element that indicates how many law enforcement officers are on duty, also allows for onduty permissions through discord roles.'
-version '0.5.2'
+version '1.0.0'
 
 
 client_script 'client/Client.net.dll'
