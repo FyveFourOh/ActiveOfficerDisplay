@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 games { 'rdr3', 'gta5' }
 
-author 'Niko <FyveFourOh@gmail.com>'
-description 'Hud element that indicates how many law enforcement officers are on duty, also allows for onduty permissions through discord roles.'
+author 'FyveFourOh <FyveFourOh@gmail.com>'
+description 'Hud element that indicates how many law enforcement officers are in-service, also allows for onduty permissions through discord roles.'
 version '1.0.0'
 
 
