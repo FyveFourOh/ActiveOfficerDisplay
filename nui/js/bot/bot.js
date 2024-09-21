@@ -28,7 +28,7 @@ const guild = new Guild;
 
 
 // Gets config
-global.config = require("./config/discordBot.json");
+global.config = require("./config/bot.json");
 
 const { updatePlayerCount, Delay, waitUntil } = require("./nui/js/bot/utils/index.js");
 const { debug } = require("console");
@@ -60,15 +60,15 @@ on('aod:CheckUserRole', async (clientDiscordID) => {
     const member = discordServer.members.cache.get(clientDiscordID);
     if (member) {
         if (member.roles.cache.has(config.cityPoliceRole)) {
-            console.log(`Successfuly found memeber with city police role!`)
+            console.log(`Successfuly found memeber with city police role!`);
             ExecuteCommand(`add_ace identifier.discord:${clientDiscordID} police.city allow`);
         }
         if (member.roles.cache.has(config.countySheriffRole)) {
-            console.log(`Successfuly found memeber with county police role!`)
+            console.log(`Successfuly found memeber with county police role!`);
             ExecuteCommand(`add_ace identifier.discord:${clientDiscordID} police.county allow`);
         }
         if (member.roles.cache.has(config.statePoliceRole)) {
-            console.log(`Successfuly found memeber with state police role!`)
+            console.log(`Successfuly found memeber with state police role!`);
             ExecuteCommand(`add_ace identifier.discord:${clientDiscordID} police.state allow`);
         }
     } else {
@@ -82,9 +82,9 @@ on('aod:SetupDiscordBot', async () => {
 
     
     try {
-        client.login(config.token);
+        await client.login(config.token);
     } catch {
-        console.log("Discord bot failed to login!")
+        console.log("Discord bot failed to login, check your bot token in bot.json!");
     }
     
 
