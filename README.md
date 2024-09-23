@@ -88,7 +88,7 @@
 ![ActiveOfficerDisplay][all-online]
 ![ActiveOfficerDisplay][lspd-online]
 
- Active Officer Display and Access Control is a standalone solution to view, in real time, how many law enforcement officers are onduty. The HUD is very customizable, you can set your own colors, department acronyms and even set the `config.cfg` to use badges next to the department acronyms to fit your server's world. You can also set your departments discord roles in `discordBot.json` to automatically enable a player to go onduty with their respective departments. It allows for a smooth whitelisting experience with very little setup. Once setup, the roles should act as permissions within FiveM for AODAC. It is worth noting that anyone can toggle the Active Officers HUD.
+ Active Officer Display and Access Control is a standalone solution to view, in real time, how many law enforcement officers are onduty. The HUD is very customizable, you can set your own colors, department acronyms and even set the `config.cfg` to use badges next to the department acronyms to fit your server's world. You can also set your departments discord roles in `bot.json` to automatically enable a player to go onduty with their respective departments. It allows for a smooth whitelisting experience with very little setup. Once setup, the roles should act as permissions within FiveM for AODAC. It is worth noting that anyone can toggle the Active Officers HUD.
 
 <!--<p align="right">
   <a href="#readme-top">
